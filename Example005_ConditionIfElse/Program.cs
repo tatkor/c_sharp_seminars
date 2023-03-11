@@ -1,8 +1,8 @@
 ﻿string user = Console.ReadLine();
 
-if (user == "Маша")
+if (user.ToLower == "Маша")
 {
-    Console.WriteLine("Ура, это Маша!");
+    Console.WriteLine("Ура, это Маша!");  // ошибки могут быть из-за разного регистра
 }
 else
 {
